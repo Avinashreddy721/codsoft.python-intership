@@ -1,0 +1,21 @@
+#basic calculator
+
+num1=int(input("enter any number :"))
+print("first number :",num1)
+num2=int(input("enter any number :"))
+print("second number :",num2)
+ar=input("enter any arithmetic operator: ")
+
+if(ar=="+"):
+    print("additions of numbers:",num1+num2)
+elif(ar=="-"):
+    print("substract of numbers:",num1-num2)
+elif(ar=="%"):
+    print("modulos of numbers:",num1%num2)
+elif(ar=="/"):
+    print("division of numbers:",num1/num2)
+elif(ar=="*"):
+    print("multiplication of numbers:",num1*num2)
+        
+else:
+    print("invalid operator") 
